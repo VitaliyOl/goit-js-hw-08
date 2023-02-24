@@ -2,14 +2,14 @@
   "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/VitaliyOl/goit-js-hw-08",
+  "homepage": "https://vitaliyol.github.io//goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VitaliyOl/goit-js-hw-08"
+    "url": "git+https://vitaliyol.github.io//goit-js-hw-08"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
