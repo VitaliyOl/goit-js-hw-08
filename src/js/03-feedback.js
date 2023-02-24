@@ -25,10 +25,10 @@ function onInput(e) {
 function onSubmit(e) {
   e.preventDefault();
 
+  console.log(formData);
+
   e.currentTarget.reset();
   localStorage.removeItem(STORAGE_KEY);
-
-  console.log(formData);
 }
 
 function populateTextarea() {
