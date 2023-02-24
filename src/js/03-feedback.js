@@ -36,6 +36,7 @@ function populateTextarea() {
     return;
   }
   formData = JSON.parse(savedData);
-  refs.email.value = savedData.email;
-  refs.message.value = savedData.message;
+
+  refs.email.value = formData.email;
+  refs.message.value = formData.message;
 }
