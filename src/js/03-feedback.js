@@ -27,6 +27,8 @@ function onSubmit(e) {
 
   e.currentTarget.reset();
   localStorage.removeItem(STORAGE_KEY);
+
+  console.log(formData);
 }
 
 function populateTextarea() {
@@ -35,6 +37,7 @@ function populateTextarea() {
   if (!savedData) {
     return;
   }
+
   formData = JSON.parse(savedData);
 
   refs.email.value = formData.email;
